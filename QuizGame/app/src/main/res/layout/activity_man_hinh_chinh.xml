@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".ManHinhChinh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            app:srcCompat="@drawable/question" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTenDangNhap"
+            android:gravity="center"
+            android:text="Quiz Game"
+            android:textSize="40sp"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton_Coin"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="-30dp"
+        android:background="@drawable/background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/coins"/>
+
+    <TextView
+        android:id="@+id/textView_tongCredit_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#942A07"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="1000"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Coin"/>
+    <Button
+        android:id="@+id/btnQuanLiTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button1"
+        android:onClick="XuLiQuanLiTaiKhoan"
+        android:text="Quản lí tài khoản"
+        android:textColor="#F5F5EEEE"
+        android:layout_margin="5sp"/>
+    <Button
+        android:id="@+id/btnTroChoiMoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button1"
+        android:onClick="XuLiTroChoiMoi"
+        android:text="Trò chơi mới"
+        android:textColor="#F2F3EEEE"
+        android:layout_margin="5sp"/>
+
+    <Button
+        android:id="@+id/btnLichSuChoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button1"
+        android:text="Lịch sử chơi"
+        android:textColor="#F3F3EDED"
+        android:layout_margin="5sp"/>
+
+    <Button
+        android:id="@+id/btnDangKi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button1"
+        android:text="Bảng xếp hạng"
+        android:textColor="#FCFAF3F3"
+        android:layout_margin="5sp"/>
+
+    <Button
+        android:id="@+id/btnMuaCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button1"
+        android:onClick="XuLiMuaCreadit"
+        android:text="Mua credit"
+        android:textColor="#F5F7EDED"
+        android:layout_margin="5sp"/>
+    <Button
+        android:id="@+id/btnHuongDan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_button1"
+        android:onClick="XuLiHuongDan"
+        android:text="Hướng dẫn"
+        android:textColor="#F5F7EDED"
+        android:layout_margin="5sp"/>
+
+    <Button
+        android:id="@+id/btnDangXuat"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_margin="5sp"
+        android:background="@drawable/my_button1"
+        android:onClick="XuLiDangXuat"
+        android:text="Đăng Xuất"
+        android:textColor="#F5F7EDED" />
+
+</LinearLayout>

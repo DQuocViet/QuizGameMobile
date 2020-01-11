@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView_noi_dung_cau_hoi" type="id" />
+    <item name="button_dap_an_a" type="id" />
+    <item name="button_dap_an_b" type="id" />
+    <item name="button_dap_an_c" type="id" />
+    <item name="imageButton_to_tu_van" type="id" />
+    <item name="imageButton_5050" type="id" />
+    <item name="imageButton_qua_cau_hoi" type="id" />
+    <item name="button_dap_an_d" type="id" />
+    <item name="textView_So_Cau_Hoi" type="id" />
+    <item name="tvTenDangNhap" type="id" />
+    <item name="btnDangXuat" type="id" />
+</resources>
